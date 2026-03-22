@@ -1,0 +1,88 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.blob {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  filter: blur(100px);
+  opacity: 0.5;
+  pointer-events: none; /* 🔥 MUST */
+}
+
+.gradient-bg {
+  pointer-events: none; /* 🔥 MUST */
+}
+/* 🔆 High Contrast Mode */
+.contrast-mode {
+  background: #000;
+}
+
+/* Make text super clear */
+.contrast-mode p {
+  color: #ffffff !important;
+}
+
+.contrast-mode h1,
+.contrast-mode h2,
+.contrast-mode h3 {
+  color: #ffffff !important;
+}
+
+/* Improve card visibility */
+.contrast-mode .glass {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.2);
+}
+
+/* Remove distractions */
+.contrast-mode .blob,
+.contrast-mode .gradient-bg {
+  opacity: 0.1;
+}
+
+/* Buttons more visible */
+.contrast-mode button,
+.contrast-mode a {
+  border-color: #fff;
+}
