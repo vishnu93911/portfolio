@@ -20,31 +20,30 @@ const About = () => {
         className="max-w-4xl mx-auto glass p-10 rounded-2xl shadow-xl"
       >
         <p className="text-lg leading-8 text-gray-300">
-          I am an <span className="text-indigo-400 font-semibold">Associate Software Engineer</span> 
-          at Atenas Code Pvt Ltd, specializing in{" "}
-          <span className="text-indigo-400 font-semibold">
-            Java Full Stack Development
-          </span>.
+          I am a <span className="text-indigo-400 font-semibold">Python Full Stack Developer </span> 
+          with a strong foundation in building web applications using modern technologies.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-300">
-          I build scalable and secure web applications using{" "}
-          <span className="text-indigo-400">Spring Boot</span>,{" "}
+          I develop scalable and user-friendly applications using{" "}
+          <span className="text-indigo-400">Django</span>,{" "}
           <span className="text-indigo-400">React</span>, and{" "}
-          <span className="text-indigo-400">MySQL</span>, focusing on clean architecture and performance.
+          <span className="text-indigo-400">MySQL</span>, focusing on clean code, performance, and maintainability.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-300">
-          I have hands-on experience in implementing{" "}
-          <span className="text-indigo-400">JWT authentication</span>,{" "}
-          <span className="text-indigo-400">Google OAuth</span>, and building{" "}
-          <span className="text-indigo-400">RESTful APIs</span> for real-world applications.
+          I have hands-on experience building real-world projects like{" "}
+          <span className="text-indigo-400">Job Finder Platform</span> and{" "}
+          <span className="text-indigo-400">Expense Management System</span>, implementing{" "}
+          <span className="text-indigo-400">authentication</span>,{" "}
+          <span className="text-indigo-400">REST APIs</span>, and dynamic user interfaces.
         </p>
 
         <p className="mt-6 text-lg leading-8 text-gray-300">
-          Additionally, I explore{" "}
-          <span className="text-indigo-400">AI-powered solutions</span> and continuously
-          improve my skills to build modern, user-centric applications.
+          Additionally, I have knowledge in{" "}
+          <span className="text-indigo-400">AI/ML</span> and{" "}
+          <span className="text-indigo-400">Software Testing</span>, and I continuously
+          improve my skills to build efficient and reliable applications.
         </p>
       </motion.div>
 

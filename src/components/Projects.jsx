@@ -2,24 +2,24 @@ import Tilt from "react-parallax-tilt";
 
 const projects = [
   {
-    title: "Online Order Management System",
-    desc: "Admin, Staff, Customer modules with Full CRUD, JWT Auth, Google Sign-In, Email Service, Cloudinary Upload.",
-    url: "https://github.com/Rahul-315/Online-Food-Order-Management-Frontend"
+    title: "Expense Tracker",
+    desc: "Frontend-based expense management system built using HTML, CSS, and JavaScript with JSON for data handling. Supports adding, updating, and deleting expenses with a clean UI.",
+    url: "https://github.com/vishnu93911/Expense-Management-System"
   },
   {
-    title: "Grouque AI",
-    desc: "AI-powered assistant with JWT authentication, chat interface, dashboard & AI API integration.",
-    url: "https://github.com/Rahul-315/Ai-Chat-bot-Backend"
+    title: "Job Recruiter and Job Seeker role based authentication system",
+    desc: "Full-stack blog app with user authentication, CRUD operations, and REST APIs.",
+    url: "https://github.com/vishnu93911/django-job-portal"
   },
   {
-    title: "Online Bookstore",
-    desc: "Inventory and order management system using REST APIs.",
-    url: "https://github.com/Rahul-315/OnlineBookStoreFrontend"
+    title: "Crime Prediction Using AI and ML",
+    desc: "Developed a crime prediction system using AI and machine learning techniques to analyze historical data and predict future crime trends, enabling data-driven decision making.",
+    url: "https://github.com/vishnu93911/Crime-Prediction-using-ml-and-dl"
   },
   {
-    title: "Employee Management System",
-    desc: "Full CRUD employee management system using Spring Boot & MySQL.",
-    url: "https://github.com/Rahul-315" // optional (add later if you have repo)
+    title: "Hostel Management System",
+    desc: "Django-based system to manage hostel records with full CRUD functionality and database integration.",
+    url: "https://github.com/vishnu93911/Hostel-Management-System"
   }
 ];
 

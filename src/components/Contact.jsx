@@ -107,10 +107,10 @@ const Contact = () => {
       </form>
 
       <div className="flex justify-center gap-6 text-2xl mt-10">
-        <a href="https://github.com/Rahul-315" target="_blank" rel="noreferrer">
+        <a href="https://github.com/vishnu93911" target="_blank" rel="noreferrer">
           <FaGithub />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noreferrer">
+        <a href="https://www.linkedin.com/in/vishnuvardhan-donthula-421a99382" target="_blank" rel="noreferrer">
           <FaLinkedin />
         </a>
       </div>

@@ -2,21 +2,17 @@ import { motion } from "framer-motion";
 
 const certifications = [
   {
-    title: "Java - Scalar",
-    link: "https://drive.google.com/file/d/17Jsd5hosHED4C39wQuXBaNgsGcdVkl_x/view?usp=drivesdk",
+    title: "Cisco Cybersecurity - virtual intership",
+    link: "https://drive.google.com/file/d/1Mf9BidSsLFbDNCEt4vauSmUHahSjdFbB/view?usp=sharing",
   },
   {
-    title: "Tera IOT - NIT Warangal",
-    link: "https://drive.google.com/file/d/1f-Bsm3c2DrkpTP71GnULW-sDEJUkDj26/view?usp=drivesdk",
+    title: "Machine Learning and Data Science - NIT(Trichy)",
+    link: "https://drive.google.com/file/d/13q_AcnH5z_8KRFAIpQChq48glLlgd9-2/view?usp=sharing",
   },
   {
-    title: "Cyber Security Job Simulation - Forage",
-    link: "https://drive.google.com/file/d/1-7gdEKFsOXdIa2jn_YtrvCk5HTz7wlFT/view?usp=drivesdk",
-  },
-  {
-    title: "Web Development - Internshala",
-    link: "https://drive.google.com/file/d/1_U0SCY9eTZrwpE_RRQi8FtPwSbJll9YA/view?usp=drivesdk",
-  },
+    title: "Python Full Stack Developer - 10k coders Institute",
+    link: "",
+  }
 ];
 
 const Certifications = () => {

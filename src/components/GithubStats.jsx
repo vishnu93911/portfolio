@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 const GithubStats = () => {
   const [profile, setProfile] = useState(null);
 
-  const githubUrl = "https://github.com/Rahul-315";
+  const githubUrl = "https://github.com/vishnu93911";
 
   useEffect(() => {
-    fetch("https://api.github.com/users/Rahul-315")
+    fetch("https://api.github.com/users/vishnu93911")
       .then((res) => res.json())
       .then((data) => setProfile(data));
   }, []);
@@ -57,7 +57,7 @@ const GithubStats = () => {
       <div className="flex flex-col md:flex-row justify-center gap-10 mb-12">
         <a href={githubUrl} target="_blank" rel="noreferrer">
           <img
-            src={`https://github-readme-stats.vercel.app/api?username=Rahul-315&show_icons=true&theme=tokyonight&cache_seconds=0`}
+            src={`https://github-readme-stats.vercel.app/api?username=vishnu93911&show_icons=true&theme=tokyonight&cache_seconds=0`}
             alt="github stats"
             className="rounded-xl shadow-lg hover:scale-105 transition"
           />
@@ -65,7 +65,7 @@ const GithubStats = () => {
 
         <a href={githubUrl} target="_blank" rel="noreferrer">
           <img
-            src={`https://github-readme-streak-stats.herokuapp.com/?user=Rahul-315&theme=tokyonight`}
+            src={`https://github-readme-streak-stats.herokuapp.com/?user=vishnu93911&theme=tokyonight`}
             alt="github streak"
             className="rounded-xl shadow-lg hover:scale-105 transition"
           />
@@ -76,7 +76,7 @@ const GithubStats = () => {
       <div className="mb-12">
         <a href={githubUrl} target="_blank" rel="noreferrer">
           <img
-            src={`https://github-readme-activity-graph.vercel.app/graph?username=Rahul-315&theme=tokyo-night`}
+            src={`https://github-readme-activity-graph.vercel.app/graph?username=vishnu93911&theme=tokyo-night`}
             alt="activity graph"
             className="rounded-xl shadow-lg mx-auto hover:scale-105 transition"
           />

@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { Typewriter } from "react-simple-typewriter";
-import profileImg from "../assets/rahul.jpg";
+import profileImg from "../assets/vishnu.jpg";
 import resume from "../assets/resume.pdf";
 
 const Hero = () => {
@@ -22,16 +22,16 @@ const Hero = () => {
             className="text-5xl md:text-6xl font-extrabold"
           >
             Hi, I'm{" "}
-            <span className="text-indigo-400">Rahul</span>
+            <span className="text-indigo-400">Vishnu Vardhan</span>
           </motion.h1>
 
           <p className="mt-6 text-xl md:text-2xl text-gray-300">
             <Typewriter
               words={[
-                "Java Full Stack Developer",
-                "Spring Boot Architect",
+                "Python Full Stack Developer",
+                "Django Developer",
                 "web developer",
-                "JWT Security Expert",
+                "Backend Developer",
               ]}
               loop
               cursor
@@ -43,7 +43,7 @@ const Hero = () => {
             
             {/* ✅ View Projects → GitHub */}
             <a
-              href="https://github.com/Rahul-315"
+              href="https://github.com/vishnu93911"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-indigo-500 px-8 py-3 rounded-xl font-semibold hover:scale-105 transition shadow-lg hover:bg-indigo-600"
@@ -54,7 +54,7 @@ const Hero = () => {
             {/* ✅ Download Resume */}
             <a
               href={resume}
-              download="Rahul_Resume.pdf"
+              download="Vishnu_Resume.pdf"
               className="border border-green-500 px-8 py-3 rounded-xl hover:bg-green-500 transition hover:scale-105"
             >
               📄 Download Resume
@@ -78,7 +78,7 @@ const Hero = () => {
             {/* Image */}
             <img
               src={profileImg}
-              alt="Rahul"
+              alt="Vishnu"
               className="relative w-72 h-72 object-cover rounded-full border-4 border-indigo-500 shadow-2xl transition duration-300 group-hover:scale-105"
             />
           </div>
