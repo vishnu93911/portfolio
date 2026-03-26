@@ -23,10 +23,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_c4z47qb",
-        "template_l165cq8",
+        "service_5p2p47e",
+        "template_vy06wyl",
         form.current,
-        "minX2dED2ZtACsrMu"
+        "jW3g5DXUsS7_iBFfi"
       )
       .then(() => {
         setStatus("success");

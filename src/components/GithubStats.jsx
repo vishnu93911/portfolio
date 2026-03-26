@@ -81,9 +81,7 @@ const GithubStats = () => {
             className="rounded-xl shadow-lg mx-auto hover:scale-105 transition"
           />
         </a>
-      </div>
-
-      
+      </div>      
     </section>
   );
 };
