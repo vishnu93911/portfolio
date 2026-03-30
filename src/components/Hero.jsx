@@ -30,6 +30,7 @@ const Hero = () => {
               words={[
                 "Python Full Stack Developer",
                 "Django Developer",
+                "python Developer",
                 "web developer",
                 "Backend Developer",
               ]}
